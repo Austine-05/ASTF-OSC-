@@ -1,0 +1,51 @@
+# Core Scientific Computing
+numpy>=1.26.0
+pandas>=2.2.0
+scipy>=1.13.0
+
+# Machine Learning
+scikit-learn>=1.4.0
+xgboost>=2.0.3
+
+# Deep Learning
+torch>=2.2.0
+torchvision>=0.17.0
+torchaudio>=2.2.0
+
+# Graph Neural Networks
+torch-geometric>=2.5.0
+networkx>=3.2
+
+# Transformer Models
+transformers>=4.40.0
+tokenizers>=0.15.2
+sentencepiece>=0.2.0
+
+# Explainable AI
+shap>=0.45.0
+
+# Visualization
+matplotlib>=3.8.0
+plotly>=5.20.0
+seaborn>=0.13.2
+
+# API
+fastapi>=0.110.0
+uvicorn>=0.29.0
+pydantic>=2.6.0
+
+# Database / Cache
+redis>=5.0.0
+
+# Data Processing
+pyyaml>=6.0
+requests>=2.31.0
+tqdm>=4.66.0
+
+# Security
+cyclonedx-python-lib>=7.4.0
+
+# Development
+pytest>=8.0.0
+black>=24.3.0
+flake8>=7.0.0
