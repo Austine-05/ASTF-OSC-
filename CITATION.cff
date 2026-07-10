@@ -1,1 +1,34 @@
+cff-version: 1.2.0
+title: "ATSF-OSC: AI-Powered Trust Scoring Framework for Open-Source Software Components"
+message: "If you use this software, please cite it using the metadata below."
+type: software
 
+authors:
+  - family-names: Egere
+    given-names: Augustine Ndudi
+    affiliation: Federal Polytechnic Bali, Taraba State, Nigeria
+    email: aegere@fpbali.edu.ng
+
+repository-code: "https://github.com/Austine-05/ATSF-OSC"
+
+license: MIT
+
+keywords:
+  - cybersecurity
+  - software supply chain
+  - open source software
+  - trust scoring
+  - graph neural networks
+  - CodeBERT
+  - XGBoost
+  - GraphSAGE
+  - explainable AI
+  - SBOM
+
+abstract: >
+  ATSF-OSC is an AI-powered framework for evaluating the
+  trustworthiness of open-source software components using
+  GraphSAGE, CodeBERT, XGBoost and an explainable
+  ensemble trust scoring model.
+
+version: 1.0.0
