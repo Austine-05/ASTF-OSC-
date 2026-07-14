@@ -1,102 +1,63 @@
-# ATSF-OSC
+# AI-Powered Trust Scoring Framework for Open-Source Software Components: Towards Proactive Supply-Chain Risk Mitigation (ATSF-OSC)
 
-## AI-Powered Trust Scoring Framework for Open-Source Software Components
-
-ATSF-OSC is an AI-driven framework for assessing the trustworthiness of Open-Source Software (OSS) components used in modern software supply chains. The framework combines machine learning, graph neural networks, transformer-based code representation, and explainable artificial intelligence to generate an interpretable trust score for OSS packages.
-
-The framework integrates:
-
-- XGBoost for tabular risk prediction
-- GraphSAGE for dependency graph analysis
-- CodeBERT for commit anomaly detection
-- Ridge Meta-Learner for ensemble trust scoring
-- SHAP Explainable AI for feature attribution
-- SPDX 2.3 and CycloneDX 1.6 SBOM trust attestation
-- REST API for CI/CD integration
+> An explainable AI framework for proactively assessing the trustworthiness of open-source software components through hybrid machine learning, graph learning, transformer-based semantic analysis, and software supply-chain intelligence.
 
 ---
 
-## Highlights
+## Overview
 
-- Multi-modal AI trust scoring
-- Supply-chain risk assessment
-- Explainable predictions
-- SBOM-compatible trust attestation
-- CI/CD policy enforcement
+The AI-Powered Trust Scoring Framework for Open-Source Software Components (ATSF-OSC) is a research framework designed to strengthen software supply-chain security by automatically evaluating the trustworthiness of open-source software components before adoption.
+
+Unlike conventional Software Composition Analysis (SCA) tools that primarily detect known vulnerabilities, ATSF-OSC integrates multiple artificial intelligence techniques to identify potentially risky packages before exploitation.
+
+The framework combines:
+
+- Graph Neural Networks (GraphSAGE)
+- CodeBERT semantic code representation
+- XGBoost risk classification
+- Explainable Artificial Intelligence (SHAP)
+- Software Bill of Materials (SBOM) trust assessment
+- RESTful API integration for CI/CD environments
+
+---
+
+## Research Motivation
+
+Open-source software powers modern applications but has become a major attack surface for software supply-chain compromises.
+
+Recent incidents such as the XZ Utils backdoor have demonstrated that malicious packages may evade traditional signature-based detection mechanisms.
+
+ATSF-OSC addresses this challenge by providing an explainable, data-driven trust scoring mechanism capable of supporting proactive software component selection.
+
+---
+
+## Key Features
+
+- Hybrid AI-based trust scoring
+- Multi-modal feature extraction
 - Graph-based dependency analysis
-- Commit behaviour analysis
-- Statistical validation framework
+- Transformer-based source code understanding
+- Explainable predictions using SHAP
+- SBOM trust attestation
+- REST API for automation
+- Reproducible experimental workflow
+- Docker deployment support
+- GitHub Actions integration
 
 ---
 
-## Repository Structure
+## Repository Status
 
-```
-ATSF-OSC/
-│
-├── api/
-├── data/
-├── docs/
-├── experiments/
-├── figures/
-├── models/
-├── notebooks/
-├── results/
-├── src/
-├── tests/
-│
-├── README.md
-├── LICENSE
-├── requirements.txt
-├── Dockerfile
-└── CITATION.cff
-```
-
----
-
-## System Architecture
-
-The ATSF-OSC framework consists of four major layers:
-
-1. Multi-source Data Ingestion
-2. Feature Engineering and Graph Construction
-3. Multi-model Ensemble Learning
-4. Trust Score Aggregation and Explainability
-
----
-
-## Experimental Evaluation
-
-The framework is designed for rigorous evaluation using:
-
-- Stratified five-fold cross-validation
-- Package-family leakage prevention
-- Statistical significance testing
-- SHAP explainability
-- Ablation analysis
-- ROC analysis
-- Confusion matrix evaluation
+| Component | Status |
+|----------|--------|
+| Documentation | In Progress |
+| Core Framework | Under Development |
+| REST API | Planned |
+| Experimental Pipeline | Under Development |
+| Reproducibility Package | In Preparation |
 
 ---
 
 ## Citation
 
-If you use this repository in your research, please cite the accompanying paper.
-
----
-
-## License
-
-MIT License
-
----
-
-## Author
-
-**Augustine Ndudi Egere**
-
-Department of Computer Science
-
-Federal Polytechnic Bali
-
-Taraba State, Nigeria
+If you use this repository in your research, please cite the accompanying publication once available.
