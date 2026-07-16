@@ -1,0 +1,61 @@
+# ======================================
+# ATSF-OSC Configuration File
+# ======================================
+
+project:
+  name: ATSF-OSC
+  version: 1.0.0
+
+paths:
+  data: data/
+  models: models/
+  logs: logs/
+  outputs: outputs/
+
+features:
+
+  tabular_features: 47
+
+  graph_embedding_dimension: 128
+
+  codebert_embedding_dimension: 768
+
+models:
+
+  graphsage:
+
+    hidden_channels: 128
+
+    layers: 2
+
+  xgboost:
+
+    max_depth: 8
+
+    learning_rate: 0.05
+
+    n_estimators: 500
+
+  ridge:
+
+    alpha: 1.0
+
+training:
+
+  test_size: 0.20
+
+  random_state: 42
+
+  cross_validation: 10
+
+api:
+
+  host: 0.0.0.0
+
+  port: 8000
+
+trust:
+
+  minimum_score: 0
+
+  maximum_score: 100
